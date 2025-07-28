@@ -1,0 +1,75 @@
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+@use "./partials/components/footer";
+@use "./partials/components/general";
+@use "./partials/components/header";
+@use "./partials/utilities/variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    font-family:'Merriweather', sans-serif;
+}
+/*Se declaran las propiedades de los h1 y h2 del sitio web, así como los colores del header*/
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+h2{
+    color:red;
+    font-size: 30px;
+    font-style: italic;
+}
+header{
+    background-color: hsl(271, 92%, 40%);
+}
+
+/*Se declaran las propiedades de los elementos de lista de navegación, tanto li como el "a" que hace de conexión*/
+.nav-li{
+    color: white;
+    font-weight: 700;
+}
+.nav-li a{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+.li-estandar{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+/*Se declaran las propiedades que tendrá el footer, como su color de fondo y características de sus párrafos*/
+footer{
+    background-color: #afadade3;
+}
+
+footer p{
+    font-weight: 700;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*Se declaran las propiedades de las imágenes correspondientes al logo e imágenes de la página de colecciones*/
+.image-center{
+    text-align: center;
+}
+
+.logo-nav{
+    width: 150px;
+    height: auto;
+}
+
+.portada-coleccion{
+    width: 600px;
+    height: 500px;
+}
